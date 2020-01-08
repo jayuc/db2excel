@@ -1,5 +1,6 @@
 package com.github.jayu.db2excel;
 
+import com.github.jayu.db2excel.com.github.jayu.db2excel.utils.DbUtils;
 import com.github.jayu.db2excel.com.github.jayu.db2excel.utils.ExcelUtils;
 
 import java.io.File;
@@ -19,10 +20,13 @@ public class App {
 
     public static void main(String[] args) {
 
-        final String path = "G:/log/a/f.xls";
-        List<Object> list = testData();
+//        final String path = "G:/log/a/f.xls";
+//        List<Object> list = testData();
+//
+//        ExcelUtils.export(list, path);
 
-        ExcelUtils.export(list, path);
+        final String sql = "select menu_code from t_sys_menu";
+        DbUtils.query(sql);
 
     }
 
