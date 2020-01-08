@@ -1,4 +1,4 @@
-package com.github.jayu.db2excel.com.github.jayu.db2excel.utils;
+package com.github.jayu.db2excel.utils;
 
 import cn.hutool.poi.excel.ExcelUtil;
 import cn.hutool.poi.excel.ExcelWriter;

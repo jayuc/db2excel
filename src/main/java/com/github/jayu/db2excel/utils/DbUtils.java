@@ -1,4 +1,4 @@
-package com.github.jayu.db2excel.com.github.jayu.db2excel.utils;
+package com.github.jayu.db2excel.utils;
 
 import cn.hutool.db.DbUtil;
 import cn.hutool.db.sql.SqlExecutor;
